@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>
+            TransportApp
+        </title>
+    </head>
+    <body class="body animated slideInDown">
+            <header>
+            <nav>
+                <div class="main-nav clearfix">
+                    <img src="images\logo.png"  height="250px" width="500px" class="logo">
+                    <ul class="menu" id="check-class">
+                        <li><a href="#">Update Roster</a></li>
+                        <li><a href="#">Check Feedbacks</a></li>
+                        <li><a href="#">Shuttle Planner</a></li>
+                        <li><a href="#">Reimbursement</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                    <a href="#" class="mobile-menu" onclick="slideshow()"><i class="fas fa-bars"></i></i></a>
+                </div>
+            </nav>
+            <div class="nav-content">
+            <h1>Welcome to <span class="myapp">Transport App</span> Webpage.<br>
+            We've got you covered!</h1>
+            </div>
+        </header>
+        <script type="text/javascript">
+         function slideshow(){
+                var x= document.getElementById("check-class");
+                if(x.style.display==="none"){
+                    x.style.display="block";
+                }else{
+                    x.style.display="none";
+                }
+            }
+        </script>
+    </body>
+</html>
